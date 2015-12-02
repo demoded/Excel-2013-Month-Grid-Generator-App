@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="../../Scripts/Office/1.1/office.js" type="text/javascript"></script>  -->
+
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content-header">
+        <div class="padding">
+            <h1>Month Generator App</h1>
+        </div>
+    </div>
+    <div id="content-main">
+        <div class="padding">
+            <select id="select-month">
+                <option value="00">January</option>
+                <option value="01">February</option>
+                <option value="02">March</option>
+                <option value="03">April</option>
+                <option value="04">May</option>
+                <option value="05">June</option>
+                <option value="06">July</option>
+                <option value="07">August</option>
+                <option value="08">September</option>
+                <option value="09">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+            </select>
+
+            <select id="select-year">
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+            </select>
+            <button id="generate-month">Generate month</button>
+            <textarea id="names-list" rows="10">UserName1
+UserName2
+UserName3
+UserName4
+UserName5
+UserName6
+UserName7</textarea>
+        </div>
+    </div>
+</body>
+</html>
