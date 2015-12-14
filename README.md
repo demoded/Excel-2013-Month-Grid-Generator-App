@@ -1,4 +1,4 @@
-# Excel2013MonthGridGeneratorApp
+# Excel 2013 Month Grid Generator App
 MS Office Web Application to generate month grid
 
 uses JavaScript API for Office
